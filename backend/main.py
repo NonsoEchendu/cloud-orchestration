@@ -2,9 +2,9 @@ from fastapi import FastAPI, WebSocket, HTTPException
 import json
 import logging
 from kubernetes import config, client
-from gitlab_integration import process_webhook
-from kubernetes_manager import KubernetesManager
-from deployment_pipeline import deployment_workflow
+from backend.gitlab_integration import process_webhook
+from backend.kubernetes_manager import KubernetesManager
+from backend.deployment_pipeline import deployment_workflow
 
 app = FastAPI()
 logging.basicConfig(level=logging.INFO)
