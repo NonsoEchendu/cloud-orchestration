@@ -1,0 +1,29 @@
+# FastAPI framework for building APIs
+fastapi
+
+# ASGI server for running FastAPI
+uvicorn[standard]
+
+# WebSockets for real-time communication with backend.im
+websockets
+
+# GitLab API integration
+python-gitlab
+
+# Kubernetes Python client
+kubernetes
+
+# AsyncIO for async operations
+asyncio
+
+# JSON handling
+ujson
+
+# HTTP requests (if needed)
+requests
+
+# Logging and structured logging (optional)
+loguru
+
+# Environment variables management
+python-dotenv
