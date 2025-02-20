@@ -27,3 +27,7 @@ loguru
 
 # Environment variables management
 python-dotenv
+
+GitPython
+
+logging

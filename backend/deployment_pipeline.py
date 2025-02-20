@@ -1,6 +1,6 @@
 import os
 import git
-from kubernetes_manager import KubernetesManager
+from backend.kubernetes_manager import KubernetesManager
 import logging
 
 k8s_manager = KubernetesManager()
